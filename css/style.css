@@ -1,0 +1,1390 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  background: black;
+}
+
+#Services {
+  font-family: Tahoma;
+  background-color: #134946;
+  height: 108rem;
+  padding-top: 12rem;
+  margin-top: -1.8rem;
+}
+
+#Services .Wrap_Box {
+  margin-top: 3rem;
+}
+
+#Services .h2 h2 {
+  margin-top: -9rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(6.5%, black), color-stop(2%, rgba(30, 28, 28, 0.671)));
+  background-image: linear-gradient(90deg, black 6.5%, rgba(30, 28, 28, 0.671) 2%);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#Services .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+#Services .first .Box_1 {
+  padding: 4rem 1rem;
+  background-color: #0000112d;
+  margin-left: 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+#Services .first .Box_1:hover {
+  background-color: #04041667;
+  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+#Services .first .Box_1 img {
+  border-radius: 5px;
+  height: 8rem;
+  width: 10rem;
+}
+
+#Services .first .Box_1 .content {
+  width: 17rem;
+  margin-top: 5px;
+  color: black;
+}
+
+#Services .first .Box_1 .content h5 {
+  font-size: 1.5rem;
+  width: 10rem;
+  margin-left: 4rem;
+}
+
+#Services .first .Box_1 .content p {
+  margin-top: 4px;
+  color: rgba(30, 28, 28, 0.953);
+}
+
+#Services .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+#Services .second .Box_2 {
+  padding: 4rem 1rem;
+  background-color: #0000112d;
+  margin-left: 6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+#Services .second .Box_2:hover {
+  background-color: #04041667;
+  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+#Services .second .Box_2 img {
+  border-radius: 5px;
+  height: 8rem;
+  width: 10rem;
+}
+
+#Services .second .Box_2 .content {
+  width: 17rem;
+  margin-top: 5px;
+  color: black;
+}
+
+#Services .second .Box_2 .content h5 {
+  font-size: 1.5rem;
+  width: 10rem;
+  margin-left: 4rem;
+}
+
+#Services .second .Box_2 .content p {
+  margin-top: 4px;
+  color: rgba(30, 28, 28, 0.953);
+}
+
+#Services .third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+
+#Services .third .Box_3 {
+  padding: 4rem 1rem;
+  background-color: #0000112d;
+  margin-left: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+#Services .third .Box_3:hover {
+  background-color: #04041667;
+  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+#Services .third .Box_3 img {
+  border-radius: 5px;
+  height: 8rem;
+  width: 10rem;
+}
+
+#Services .third .Box_3 .content {
+  margin-top: 5px;
+  color: black;
+  width: 17rem;
+}
+
+#Services .third .Box_3 .content h5 {
+  font-size: 1.5rem;
+  width: 11rem;
+  margin-left: 4rem;
+}
+
+#Services .third .Box_3 .content p {
+  margin-top: 4px;
+  color: rgba(30, 28, 28, 0.953);
+}
+
+.fourth .Box_4 {
+  padding: 4rem 1rem;
+  width: 30rem;
+  height: 13rem;
+  background-color: #0000112d;
+  margin-left: 29rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.fourth .Box_4:hover {
+  background-color: #04041667;
+  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.fourth .Box_4 img {
+  border-radius: 5px;
+  height: 8rem;
+  width: 10rem;
+}
+
+.fourth .Box_4 .content {
+  margin-top: 5px;
+  color: black;
+}
+
+.fourth .Box_4 .content h5 {
+  font-size: 1.5rem;
+  width: 11rem;
+  margin-left: 10rem;
+}
+
+.fourth .Box_4 .content p {
+  margin-top: 4px;
+  color: rgba(30, 28, 28, 0.953);
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #134946;
+  font-family: Tahoma;
+}
+
+.top .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top .logo img {
+  height: 2rem;
+  -webkit-filter: drop-shadow(-10px 10px 20px #580858);
+          filter: drop-shadow(-10px 10px 20px #580858);
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.top .logo h3 {
+  font-size: 1.8rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(30, 28, 28, 0.671)));
+  background-image: linear-gradient(to right, black, rgba(30, 28, 28, 0.671));
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.top .nav-links {
+  margin-top: .5rem;
+}
+
+.top .nav-links a {
+  font-size: .8rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 4rem;
+  color: black;
+  -webkit-box-shadow: 2px 2px 8px black;
+          box-shadow: 2px 2px 8px black;
+  -webkit-transition: all ease-in 0.5s;
+  transition: all ease-in 0.5s;
+}
+
+.top .nav-links a:hover {
+  background-color: black;
+  color: #134946;
+  padding-bottom: 1rem;
+}
+
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+  padding: 0 5rem;
+  font-family: Tahoma;
+  height: 43.5rem;
+}
+
+#home .H_right {
+  width: 38rem;
+  background-color: #134946;
+  margin-right: -5rem;
+  border-left: 150px solid black;
+  border-bottom: 700px solid transparent;
+  text-align: center;
+}
+
+#home .H_right .words {
+  margin-right: 2rem;
+}
+
+#home .H_right .words h3 {
+  margin-top: 5rem;
+  font-size: 4rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#121283), to(#580858));
+  background-image: linear-gradient(to right, #121283, #580858);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#home .H_right .words h4 {
+  color: black;
+  margin-top: 5px;
+  margin-left: -12rem;
+}
+
+#home .H_right .words p {
+  color: black;
+  margin-right: 5rem;
+}
+
+#home .H_left .image img {
+  -webkit-filter: drop-shadow(-10px 10px 20px #134946);
+          filter: drop-shadow(-10px 10px 20px #134946);
+}
+
+#home .H_left .image p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(purple), to(blue));
+  background-image: linear-gradient(to right, purple, blue);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#about {
+  background: url(../img/beef.png) no-repeat;
+  background-position: right;
+  height: 30rem;
+  color: #134946;
+  padding: 1rem 4rem;
+  font-family: Tahoma;
+}
+
+#about h2 {
+  margin-bottom: 1rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#134946), to(blue));
+  background-image: linear-gradient(to right, #134946, blue);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#about p {
+  width: 45rem;
+  color: #134946;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+#team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Tahoma;
+}
+
+#team .A_Box12 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #134946;
+}
+
+#team .A_Box12 img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 5px;
+}
+
+#team .A_top {
+  background-color: #134946;
+  height: 0.6rem;
+  border-right: 40px solid black;
+  border-bottom: 400px solid transparent;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#team .A_top .A_Box {
+  margin-top: 2rem;
+  color: black;
+  font-family: Tahoma;
+}
+
+#team .A_top .A_Box h3 {
+  color: #1e1c1c;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(30, 28, 28, 0.671)));
+  background-image: linear-gradient(to right, black, rgba(30, 28, 28, 0.671));
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#team .A_top .A_Box img {
+  border-radius: 5px;
+  height: 9rem;
+}
+
+#Contact {
+  background: #134946;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Tahoma;
+  color: black;
+  padding: 3rem 3rem;
+  height: 16rem;
+}
+
+#Contact .C_right h2 {
+  margin-bottom: 1rem;
+}
+
+#Contact .C_right p {
+  width: 28rem;
+  margin-top: .2rem;
+}
+
+#Contact .C_right .icons {
+  margin-top: 1rem;
+}
+
+#Contact .C_right .icons img {
+  height: 2rem;
+}
+
+#Contact .C_right .links {
+  margin-top: .8rem;
+}
+
+#Contact .C_right .links h3 {
+  margin-bottom: 1rem;
+}
+
+#Contact .C_right .links a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgba(30, 28, 28, 0.953);
+}
+
+#Contact .C_middle {
+  position: relative;
+  top: -11rem;
+  right: -2rem;
+  -webkit-box-shadow: -5px 5px 15px black;
+          box-shadow: -5px 5px 15px black;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  background: #134946;
+  height: 16rem;
+  width: 18rem;
+  padding: 2rem 5px;
+  text-align: center;
+  color: black;
+  border-radius: 6px;
+}
+
+#Contact .C_middle:hover {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#Contact .C_middle .Call h4 {
+  margin-bottom: 4px;
+  text-decoration: underline;
+}
+
+#Contact .C_middle .Call p {
+  margin-bottom: 5px;
+}
+
+#Contact .C_middle .Email h4 {
+  margin-bottom: 4px;
+  text-decoration: underline;
+}
+
+#Contact .C_middle .Email p {
+  margin-bottom: 5px;
+}
+
+#Contact .C_middle .B_H h4 {
+  margin-bottom: 4px;
+  text-decoration: underline;
+}
+
+#Contact .C_middle .Location h4 {
+  text-decoration: underline;
+}
+
+#Contact .C_middle .Location p {
+  width: 14rem;
+  margin-top: 4px;
+  margin-left: 2rem;
+  margin-bottom: 5px;
+}
+
+#Contact .C_left img {
+  height: 15rem;
+  margin-left: 7rem;
+}
+
+#comment {
+  height: 33rem;
+  font-family: Tahoma;
+  background: url(../img/connect-removebg-preview.png) no-repeat;
+  background-position-x: right;
+  background-repeat: repeat-y;
+}
+
+#comment h2 {
+  font-size: 2.5rem;
+  color: #134946;
+  background-image: -webkit-gradient(linear, left top, right top, from(#134946), to(blue));
+  background-image: linear-gradient(to right, #134946, blue);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 2rem 2rem;
+}
+
+#comment .cmd {
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+
+#comment .cmd ul li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+#comment .cmd #name {
+  color: #134946;
+  border: 1px solid #134946;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.055);
+}
+
+#comment .cmd #name::-webkit-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #name:-ms-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #name::-ms-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #name::placeholder {
+  color: #134946;
+}
+
+#comment .cmd #email {
+  color: #134946;
+  border: 1px solid #134946;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.055);
+}
+
+#comment .cmd #email::-webkit-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #email:-ms-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #email::-ms-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #email::placeholder {
+  color: #134946;
+}
+
+#comment .cmd #area {
+  color: #134946;
+  border: 1px solid #134946;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.055);
+}
+
+#comment .cmd #area::-webkit-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #area:-ms-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #area::-ms-input-placeholder {
+  color: #134946;
+}
+
+#comment .cmd #area::placeholder {
+  color: #134946;
+}
+
+#comment .cmd #submit {
+  color: black;
+  background-color: #134946;
+  border: 1px solid #134946;
+  border-radius: 1rem;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 8px #134946;
+          box-shadow: 2px 2px 8px #134946;
+  -webkit-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
+}
+
+#comment .cmd #submit:hover {
+  background: transparent;
+  color: #134946;
+}
+
+@media (max-width: 375px) {
+  .top {
+    width: 83.45rem;
+  }
+  #Services {
+    width: 83.45rem;
+  }
+  #about {
+    width: 75.45rem;
+  }
+  #team {
+    width: 83.45rem;
+  }
+  #comment {
+    width: 83.45rem;
+  }
+  #Contact {
+    width: 77.45rem;
+  }
+  #team .A_Box12 h3 {
+    font-size: 1.5rem;
+  }
+  #team .A_Box12 p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #team .A_top .A_Box h3 {
+    font-size: 1.5rem;
+  }
+  #team .A_top .A_Box p {
+    color: black;
+    font: 1.2rem;
+    font-weight: bolder;
+  }
+  #Services {
+    height: 120rem;
+  }
+  #Services .h2 h2 {
+    font-size: 3rem;
+  }
+  #Services .first .Box_1 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .first .Box_1 .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  #Services .second .Box_2 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .second .Box_2 .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  #Services .third .Box_3 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .third .Box_3 .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  .fourth .Box_4 {
+    padding: 3rem 1rem;
+  }
+  .fourth .Box_4 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 10rem;
+  }
+  .fourth .Box_4 .content p {
+    margin-top: 4px;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  .top {
+    padding-bottom: 2rem;
+  }
+  .top .logo h3 {
+    font-size: 2.5rem;
+  }
+  .top .nav-links a {
+    font-size: 1.5rem;
+  }
+  #home {
+    padding: 0 8rem;
+  }
+  #home .H_right .words h4 {
+    font-size: 1.5rem;
+  }
+  #home .H_right .words p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  #home .H_left .image p {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_right h2 {
+    font-size: 2rem;
+  }
+  #Contact .C_right h4 {
+    font-size: 1.2rem;
+  }
+  #Contact .C_right p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_right .icons img {
+    height: 2rem;
+  }
+  #Contact .C_right .links h4 {
+    font-size: 1.3rem;
+  }
+  #Contact .C_right .links a {
+    font-size: 1.2rem;
+    margin-left: 8px;
+  }
+  #Contact .C_middle {
+    right: -3rem;
+    height: 19rem;
+    width: 20rem;
+  }
+  #Contact .C_middle .Call h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Call p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_middle .Email h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Email p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_middle .B_H h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .B_H p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_middle .Location h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Location p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_left img {
+    height: 15rem;
+    margin-left: 7rem;
+  }
+  #comment {
+    height: 35rem;
+  }
+  #comment .cmd #name {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #name::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #email::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #area::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #submit {
+    font-size: 1.4rem;
+    padding: 12px;
+  }
+  #about {
+    height: 38rem;
+  }
+  #about h2 {
+    font-size: 2.5rem;
+  }
+  #about p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .top {
+    width: 83.45rem;
+  }
+  #Services {
+    width: 83.45rem;
+  }
+  #about {
+    width: 75.45rem;
+  }
+  #team {
+    width: 83.45rem;
+  }
+  #comment {
+    width: 83.45rem;
+  }
+  #Contact {
+    width: 77.45rem;
+  }
+  #team .A_Box12 h3 {
+    font-size: 1.5rem;
+  }
+  #team .A_Box12 p {
+    font-size: 1.2rem;
+  }
+  #team .A_top .A_Box h3 {
+    font-size: 1.5rem;
+  }
+  #team .A_top .A_Box p {
+    color: black;
+    font: 1.2rem;
+  }
+  #Services {
+    height: 125rem;
+  }
+  #Services .h2 h2 {
+    font-size: 3rem;
+  }
+  #Services .first .Box_1 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .first .Box_1 .content p {
+    font-size: 1.2rem;
+    color: black;
+  }
+  #Services .second .Box_2 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .second .Box_2 .content p {
+    font-size: 1.2rem;
+    color: black;
+  }
+  #Services .third .Box_3 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .third .Box_3 .content p {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .fourth .Box_4 {
+    padding: 8rem 1rem;
+  }
+  .fourth .Box_4 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 10rem;
+  }
+  .fourth .Box_4 .content p {
+    margin-top: 4px;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .top {
+    padding-bottom: 2rem;
+  }
+  .top .logo h3 {
+    font-size: 2.5rem;
+  }
+  .top .nav-links a {
+    font-size: 1.5rem;
+  }
+  #home {
+    padding: 0 5rem;
+  }
+  #home .H_right .words h4 {
+    font-size: 1.5rem;
+  }
+  #home .H_right .words p {
+    font-size: 1.3rem;
+  }
+  #home .H_left .image p {
+    font-size: 2rem;
+  }
+  #Contact .C_right h2 {
+    font-size: 2rem;
+  }
+  #Contact .C_right h4 {
+    font-size: 1.2rem;
+  }
+  #Contact .C_right p {
+    font-size: 1.2rem;
+  }
+  #Contact .C_right .icons img {
+    height: 2rem;
+  }
+  #Contact .C_right .links h4 {
+    font-size: 1.3rem;
+  }
+  #Contact .C_right .links a {
+    font-size: 1.2rem;
+    margin-left: 8px;
+  }
+  #Contact .C_middle {
+    right: -3rem;
+    height: 19rem;
+    width: 20rem;
+  }
+  #Contact .C_middle .Call h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Call p {
+    font-size: 1.2rem;
+  }
+  #Contact .C_middle .Email h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Email p {
+    font-size: 1.2rem;
+  }
+  #Contact .C_middle .B_H h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .B_H p {
+    font-size: 1.2rem;
+  }
+  #Contact .C_middle .Location h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Location p {
+    font-size: 1.2rem;
+  }
+  #Contact .C_left img {
+    height: 15rem;
+    margin-left: 7rem;
+  }
+  #comment {
+    height: 35rem;
+  }
+  #comment .cmd #name {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #name::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #email::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #area::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #submit {
+    font-size: 1.4rem;
+    padding: 12px;
+  }
+  #about {
+    height: 60rem;
+  }
+  #about h2 {
+    font-size: 2.5rem;
+  }
+  #about p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .top {
+    width: 83.45rem;
+  }
+  #Services {
+    width: 83.45rem;
+  }
+  #about {
+    width: 75.45rem;
+  }
+  #team {
+    width: 83.45rem;
+  }
+  #comment {
+    width: 83.45rem;
+  }
+  #Contact {
+    width: 77.45rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .top {
+    width: 83.45rem;
+  }
+  #Services {
+    width: 83.45rem;
+  }
+  #about {
+    width: 75.45rem;
+  }
+  #team {
+    width: 83.45rem;
+  }
+  #comment {
+    width: 83.45rem;
+  }
+  #Contact {
+    width: 77.45rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .top {
+    width: 80.42rem;
+  }
+  #Services {
+    width: 80.42rem;
+  }
+  #about {
+    width: 72.42rem;
+  }
+  #team {
+    width: 80.42rem;
+  }
+  #comment {
+    width: 80.42rem;
+  }
+  #Contact {
+    width: 74.42rem;
+  }
+  #home {
+    width: 70rem;
+  }
+  #home {
+    padding: 0 2rem;
+  }
+  #team .A_Box12 h3 {
+    font-size: 1.5rem;
+  }
+  #team .A_Box12 p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #team .A_top .A_Box h3 {
+    font-size: 1.5rem;
+  }
+  #team .A_top .A_Box p {
+    color: black;
+    font: 1.2rem;
+    font-weight: bolder;
+  }
+  #Services {
+    height: 125rem;
+  }
+  #Services .h2 h2 {
+    font-size: 3rem;
+  }
+  #Services .first .Box_1 {
+    margin-left: 5rem;
+  }
+  #Services .first .Box_1 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .first .Box_1 .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  #Services .second .Box_2 {
+    margin-left: 5rem;
+  }
+  #Services .second .Box_2 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .second .Box_2 .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  #Services .third .Box_3 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 3rem;
+  }
+  #Services .third .Box_3 .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  .fourth .Box_4 {
+    padding: 8rem 1rem;
+  }
+  .fourth .Box_4 .content h5 {
+    font-size: 1.7rem;
+    margin-left: 10rem;
+  }
+  .fourth .Box_4 .content p {
+    margin-top: 4px;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  .top {
+    padding-bottom: 2rem;
+  }
+  .top .logo h3 {
+    font-size: 2.5rem;
+  }
+  .top .nav-links a {
+    font-size: 1.5rem;
+  }
+  #home {
+    padding: 0 2rem;
+  }
+  #home .H_right .words h4 {
+    font-size: 1.5rem;
+  }
+  #home .H_right .words p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  #home .H_left .image p {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_right h2 {
+    font-size: 2rem;
+  }
+  #Contact .C_right h4 {
+    font-size: 1.2rem;
+  }
+  #Contact .C_right p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_right .icons img {
+    height: 2rem;
+  }
+  #Contact .C_right .links h4 {
+    font-size: 1.3rem;
+  }
+  #Contact .C_right .links a {
+    font-size: 1.2rem;
+    margin-left: 8px;
+    font-weight: bolder;
+  }
+  #Contact .C_middle {
+    right: -3rem;
+    height: 19rem;
+    width: 20rem;
+  }
+  #Contact .C_middle .Call h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Call p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_middle .Email h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Email p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_middle .B_H h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .B_H p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_middle .Location h4 {
+    font-size: 1.5rem;
+  }
+  #Contact .C_middle .Location p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  #Contact .C_left img {
+    height: 15rem;
+    margin-left: 7rem;
+  }
+  #comment {
+    height: 35rem;
+  }
+  #comment .cmd #name {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #name::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #name::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #email::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #email::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area {
+    border-radius: 5px;
+    padding: 12px;
+  }
+  #comment .cmd #area::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area:-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #area::placeholder {
+    font-size: 1.2rem;
+  }
+  #comment .cmd #submit {
+    font-size: 1.4rem;
+    padding: 12px;
+  }
+  #about {
+    height: 60rem;
+  }
+  #about h2 {
+    font-size: 2.5rem;
+  }
+  #about p {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
