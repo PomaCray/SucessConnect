@@ -599,703 +599,704 @@ body{
 
 
 
-
-
-@media(max-width:375px){
-        
-    .top{
-        width: 83.45rem;
-      }
-      #Services{
-          width: 83.45rem;
-      }
-      #about{
-          width: 75.45rem;
-      }
-      #team{
-          width: 83.45rem;
-      }
-      #comment{
-          width: 83.45rem;
-      }
-      #Contact{
-          width: 77.45rem;
-      }
-
-      //fghj
-      #team{
-        .A_Box12{
-           
-            h3{
-                font-size: 1.5rem;
-            }
-            p{
-                font-size: 1.2rem;
-                font-weight: bolder;
-            }
-           
-        }
-        .A_top{
-           
-            .A_Box{
-                h3{
-                    font-size: 1.5rem;
-                }
-                p{
-                    color: black;
-                    font: 1.2rem;
-                    font-weight: bolder;
-                }
-            }
-        }
-    }
-
-//font size
-
-#Services{
-   height: 120rem;
-    
-    .h2{
-        h2{
-            font-size: 3rem;
-        }
-    }
-
-
-    .first{
-   
-        .Box_1{
-          
-            .content{
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 3rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    color:black;
-                    font-weight: bolder;
-                }
-            }
-        }
-    }
-    .second{
-     
-        .Box_2{
-           
-            .content{
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 3rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    color:black;
-                    font-weight: bolder;
-                }
-            }
-        }
-    }
-    .third{
-       
-        .Box_3{
-          
-            .content{
-              
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 3rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    color:black;
-                    font-weight: bolder;
-                }
-            }
-        }
-    }
-}
-.fourth{
-  
-    .Box_4{
-            padding: 3rem 1rem;
-            .content{
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 10rem;
-                }
-                p{
-                    margin-top: 4px;
-                    font-size: 1.2rem;
-                    color:black;
-                    font-weight: bolder;
-                }
-            }
-        }
-    
-}
-
-//wert
-.top{
-   
-    padding-bottom: 2rem; //
-    .logo{
-        h3{
-            font-size: 2.5rem; //
-        }
-    }
-    .nav-links{
-        a{                    
-            font-size: 1.5rem; //
-        }
-    }
-}
-//fgh
-
-#home{          
-    padding: 0 8rem; //
-
-    .H_right{
-
-        .words{
-                   
-            h4{
-              font-size: 1.5rem; //
-            }
-            p{
-              font-size: 1.3rem; //
-              font-weight: bolder;
-            }
-        }
-    }
-    .H_left{
-        .image{
-          
-            p{
-              font-size: 2rem; //
-              font-weight: bolder;
-            }
-        }
-    }
-}
-//fghj
-
-#Contact{
-  
-    
-    .C_right{
-        h2{
-        
-            font-size: 2rem; //
-        }
-        h4{
-            font-size: 1.2rem;
-        }
-        p{
-         
-            font-size: 1.2rem; //
-            font-weight: bolder;
-        }
-        .icons{
-           
-            img{
-                height: 2rem;
-            }
-        }
-
-        .links{
-
-          
-
-            h4{
-                font-size: 1.3rem; //
-            }
-
-            a{
-                font-size: 1.2rem; //
-                margin-left: 8px; //
-              
-            }
-
-
-        }
-    }
-    .C_middle{
-    right: -3rem; //
-    height: 19rem; // 
-    width: 20rem; //
-    .Call{
-        h4{
-          font-size: 1.5rem; //
-        }
-        p{
-          font-size: 1.2rem; //
-          font-weight: bolder;
-        }
-    }
-    .Email{
-        h4{
-          font-size: 1.5rem; //
-        }
-        p{                  
-          font-size: 1.2rem; //
-          font-weight: bolder;
-        }
-    }
-    .B_H{
-        h4{
-          font-size: 1.5rem; //
-        }
-        p{
-          font-size: 1.2rem; //
-          font-weight: bolder;
-        }
-    }
-    .Location{
-        h4{  
-          font-size: 1.5rem; //
-        }
-        p{
-          font-size: 1.2rem; //
-          font-weight: bolder;
-        }
-    }
-    }
-    .C_left{
-    
-    img{
-        height: 15rem;
-        margin-left: 7rem;
-    }
-    }
-}
-   //dgfh
-
-   #comment{
-    height: 35rem; //
-   .cmd{
-        #name{
-            &::placeholder{
-                font-size: 1.2rem; //
-            }
-            border-radius: 5px; //
-            padding: 12px ; //
-        }
-        #email{
-            &::placeholder{
-                font-size: 1.2rem; //
-            }
-            border-radius: 5px; //
-            padding: 12px; //
-         
-        }
-        #area{
-            &::placeholder{
-                font-size: 1.2rem; //
-            }
-
-            border-radius: 5px; // 
-            padding: 12px; // 
-        }
-        #submit{
-            font-size: 1.4rem; // 
-            padding: 12px; //        
-        }
-   }
-}
-//dfgh
-
-#about{          
-    height: 38rem; //        
-    h2{
-        font-size: 2.5rem; //   
-    }
-    p{
-        font-size: 1.5rem; //
-    //    color: rgb(19, 73, 70);
-    }
-
-}
-
-
-
-
-
-
-
-}
-@media(max-width:425px){
-        
-    .top{
-        width: 83.45rem;
-      }
-      #Services{
-          width: 83.45rem;
-      }
-      #about{
-          width: 75.45rem;
-      }
-      #team{
-          width: 83.45rem;
-      }
-      #comment{
-          width: 83.45rem;
-      }
-      #Contact{
-          width: 77.45rem;
-      }
-
-      #team{
-        .A_Box12{
-           
-            h3{
-                font-size: 1.5rem;
-            }
-            p{
-                font-size: 1.2rem;
-            }
-           
-        }
-        .A_top{
-           
-            .A_Box{
-                h3{
-                    font-size: 1.5rem;
-                }
-                p{
-                    color: black;
-                    font: 1.2rem;
-                }
-            }
-        }
-    }
-
-//font size
-
-#Services{
-    height: 125rem;
-    
-    .h2{
-        h2{
-            font-size: 3rem;
-        }
-    }
-
-
-    .first{
-   
-        .Box_1{
-          
-            .content{
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 3rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    color:black;
-                }
-            }
-        }
-    }
-    .second{
-     
-        .Box_2{
-           
-            .content{
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 3rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    color:black;
-                }
-            }
-        }
-    }
-    .third{
-       
-        .Box_3{
-          
-            .content{
-              
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 3rem;
-                }
-                p{
-                    font-size: 1.2rem;
-                    color:black;
-                }
-            }
-        }
-    }
-}
-.fourth{
-  
-    .Box_4{
-            padding: 8rem 1rem;
-            .content{
-                h5{
-                    font-size: 1.7rem;
-                    margin-left: 10rem;
-                }
-                p{
-                    margin-top: 4px;
-                    font-size: 1.2rem;
-                    color:black;
-                }
-            }
-        }
-    
-}
-
-//wert
-.top{
-   
-    padding-bottom: 2rem; //
-    .logo{
-        h3{
-            font-size: 2.5rem; //
-        }
-    }
-    .nav-links{
-        a{                    
-            font-size: 1.5rem; //
-        }
-    }
-}
-//fgh
-
-#home{          
-    padding: 0 5rem; //
-
-    .H_right{
-
-        .words{
-                   
-            h4{
-              font-size: 1.5rem; //
-            }
-            p{
-              font-size: 1.3rem; //
-            }
-        }
-    }
-    .H_left{
-        .image{
-          
-            p{
-              font-size: 2rem; //
-            }
-        }
-    }
-}
-//fghj
-
-#Contact{
-  
-    
-    .C_right{
-        h2{
-        
-            font-size: 2rem; //
-        }
-        h4{
-            font-size: 1.2rem;
-        }
-        p{
-         
-            font-size: 1.2rem; //
-        }
-        .icons{
-           
-            img{
-                height: 2rem;
-            }
-        }
-
-        .links{
-
-          
-
-            h4{
-                font-size: 1.3rem; //
-            }
-
-            a{
-                font-size: 1.2rem; //
-                margin-left: 8px; //
-              
-            }
-
-
-        }
-    }
-    .C_middle{
-    right: -3rem; //
-    height: 19rem; // 
-    width: 20rem; //
-    .Call{
-        h4{
-          font-size: 1.5rem; //
-        }
-        p{
-          font-size: 1.2rem; //
-        }
-    }
-    .Email{
-        h4{
-          font-size: 1.5rem; //
-        }
-        p{                  
-          font-size: 1.2rem; //
-        }
-    }
-    .B_H{
-        h4{
-          font-size: 1.5rem; //
-        }
-        p{
-          font-size: 1.2rem; //
-        }
-    }
-    .Location{
-        h4{  
-          font-size: 1.5rem; //
-        }
-        p{
-          font-size: 1.2rem; //
-        }
-    }
-    }
-    .C_left{
-    
-    img{
-        height: 15rem;
-        margin-left: 7rem;
-    }
-    }
-}
-   //dgfh
-
-   #comment{
-    height: 35rem; //
-   .cmd{
-        #name{
-            &::placeholder{
-                font-size: 1.2rem; //
-            }
-            border-radius: 5px; //
-            padding: 12px ; //
-        }
-        #email{
-            &::placeholder{
-                font-size: 1.2rem; //
-            }
-            border-radius: 5px; //
-            padding: 12px; //
-         
-        }
-        #area{
-            &::placeholder{
-                font-size: 1.2rem; //
-            }
-
-            border-radius: 5px; // 
-            padding: 12px; // 
-        }
-        #submit{
-            font-size: 1.4rem; // 
-            padding: 12px; //        
-        }
-   }
-}
-//dfgh
-
-#about{          
-    height: 60rem; //        
-    h2{
-        font-size: 2.5rem; //   
-    }
-    p{
-        font-size: 1.5rem; //
-    //    color: rgb(19, 73, 70);
-    }
-
-}
-
-
-
-
-}
-
-@media(max-width:768px){
-        
-    .top{
-        width: 83.45rem;
-      }
-      #Services{
-          width: 83.45rem;
-      }
-      #about{
-          width: 75.45rem;
-      }
-      #team{
-          width: 83.45rem;
-      }
-      #comment{
-          width: 83.45rem;
-      }
-      #Contact{
-          width: 77.45rem;
-      }
-
-}
-
 @media(max-width:1024px){
         .top{
-            width: 83.45rem;
+            width: 94.8rem;
         }
-       #Services{
-            width: 83.45rem;
-       }
-       #about{
-           width: 75.45rem;
-       }
-       #team{
-          width: 83.45rem;
-       }
-       #comment{
-          width: 83.45rem;
-       }
-       #Contact{
-          width: 77.45rem;
-       }
+        #Services{
+            width: 94.9rem;
+        }
+        #about{
+            width: 85.45rem;
+        }
+        #team{
+            width: 94.8rem;
+        }
+        #comment{
+            width: 94.8rem;
+        }
+        #Contact{
+            width: 88.9rem;
+        }
 
     }
 
+    @media(max-width:768px){
+        
+        .top{
+            width: 94.8rem;
+          }
+          #Services{
+              width: 94.9rem;
+          }
+          #about{
+              width: 85.45rem;
+          }
+          #team{
+              width: 94.8rem;
+          }
+          #comment{
+              width: 94.8rem;
+          }
+          #Contact{
+              width: 88.9rem;
+          }
+    
+    }
+    
+    @media(max-width:425px){
+        
+        .top{
+            width: 94.5rem;
+          }
+          #Services{
+              width: 94.5rem;
+          }
+          #about{
+              width: 85.5rem;
+          }
+          #team{
+              width: 94.5rem;
+          }
+          #comment{
+              width: 94.5rem;
+          }
+          #Contact{
+              width: 88.5rem;
+          }
+    
+          #team{
+            .A_Box12{
+               
+                h3{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+               
+            }
+            .A_top{
+               
+                .A_Box{
+                    h3{
+                        font-size: 1.5rem;
+                    }
+                    p{
+                        color: black;
+                        font: 1.2rem;
+                    }
+                }
+            }
+        }
+    
+    //font size
+    
+    #Services{
+        height: 125rem;
+        
+        .h2{
+            h2{
+                font-size: 3rem;
+            }
+        }
+    
+    
+        .first{
+       
+            .Box_1{
+              
+                .content{
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 3rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color:black;
+                    }
+                }
+            }
+        }
+        .second{
+         
+            .Box_2{
+               
+                .content{
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 3rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color:black;
+                    }
+                }
+            }
+        }
+        .third{
+           
+            .Box_3{
+              
+                .content{
+                  
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 3rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color:black;
+                    }
+                }
+            }
+        }
+    }
+    .fourth{
+      
+        .Box_4{
+                padding: 8rem 1rem;
+                margin-left: 34rem;
+                .content{
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 10rem;
+                    }
+                    p{
+                        margin-top: 4px;
+                        font-size: 1.2rem;
+                        color:black;
+                    }
+                }
+            }
+        
+    }
+    
+    //wert
+    .top{
+       
+        padding-bottom: 2rem; //
+        .logo{
+            h3{
+                font-size: 2.5rem; //
+            }
+        }
+        .nav-links{
+            a{                    
+                font-size: 1.5rem; //
+            }
+        }
+    }
+    //fgh
+    
+    #home{          
+        padding: 0 4.5rem; //
+    
+        .H_right{
+    
+            .words{
+                       
+                h4{
+                  font-size: 1.5rem; //
+                }
+                p{
+                  font-size: 1.3rem; //
+                }
+            }
+        }
+        .H_left{
+            .image{
+              
+                p{
+                  font-size: 2rem; //
+                }
+            }
+        }
+    }
+    //fghj
+    
+    #Contact{
+      
+        
+        .C_right{
+            h2{
+            
+                font-size: 2rem; //
+            }
+            h4{
+                font-size: 1.2rem;
+            }
+            p{
+             
+                font-size: 1.2rem; //
+            }
+            .icons{
+               
+                img{
+                    height: 2rem;
+                }
+            }
+    
+            .links{
+    
+              
+    
+                h4{
+                    font-size: 1.3rem; //
+                }
+    
+                a{
+                    font-size: 1.2rem; //
+                    margin-left: 8px; //
+                  
+                }
+    
+    
+            }
+        }
+        .C_middle{
+        right: -3rem; //
+        height: 20rem; // 
+        width: 20rem; //
+        .Call{
+            h4{
+              font-size: 1.5rem; //
+            }
+            p{
+              font-size: 1.2rem; //
+            }
+        }
+        .Email{
+            h4{
+              font-size: 1.5rem; //
+            }
+            p{                  
+              font-size: 1.2rem; //
+            }
+        }
+        .B_H{
+            h4{
+              font-size: 1.5rem; //
+            }
+            p{
+              font-size: 1.2rem; //
+            }
+        }
+        .Location{
+            h4{  
+              font-size: 1.5rem; //
+            }
+            p{
+              font-size: 1.2rem; //
+            }
+        }
+        }
+        .C_left{
+        
+        img{
+            height: 15rem;
+            margin-left: 7rem;
+        }
+        }
+    }
+       //dgfh
+    
+       #comment{
+        height: 38rem; //
+       .cmd{
+            #name{
+                &::placeholder{
+                    font-size: 1.2rem; //
+                }
+                border-radius: 5px; //
+                padding: 12px ; //
+            }
+            #email{
+                &::placeholder{
+                    font-size: 1.2rem; //
+                }
+                border-radius: 5px; //
+                padding: 12px; //
+             
+            }
+            #area{
+                &::placeholder{
+                    font-size: 1.2rem; //
+                }
+    
+                border-radius: 5px; // 
+                padding: 12px; // 
+            }
+            #submit{
+                font-size: 1.4rem; // 
+                padding: 12px; //        
+            }
+       }
+    }
+    //dfgh
+    
+    #about{          
+        height: 60rem; //        
+        h2{
+            font-size: 2.5rem; //   
+        }
+        p{
+            font-size: 1.5rem; //
+        //    color: rgb(19, 73, 70);
+        }
+    
+    }
+    
+    
+    
+    
+    }
+    
+    @media(max-width:375px){
+        
+        .top{
+            width: 92rem;
+          }
+          #Services{
+              width: 91.9rem;
+          }
+          #about{
+              width: 83.45rem;
+          }
+          #team{
+              width: 92.1rem;
+          }
+          #comment{
+              width: 92.1rem;
+          }
+          #Contact{
+              width: 86.1rem;
+          }
+    
+          //fghj
+          #team{
+            .A_Box12{
+               
+                h3{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                    font-weight: bolder;
+                }
+               
+            }
+            .A_top{
+               
+                .A_Box{
+                    h3{
+                        font-size: 1.5rem;
+                    }
+                    p{
+                        color: black;
+                        font: 1.2rem;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    
+    //font size
+    
+    #Services{
+       height: 125rem;
+        
+        .h2{
+            h2{
+                font-size: 3rem;
+            }
+        }
+    
+    
+        .first{
+       
+            .Box_1{
+              
+                .content{
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 3rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color:black;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+        .second{
+         
+            .Box_2{
+               
+                .content{
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 3rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color:black;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+        .third{
+           
+            .Box_3{
+              
+                .content{
+                  
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 3rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        color:black;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+    .fourth{
+      
+        .Box_4{
+                padding: 7rem 1rem;
+                margin-left: 32rem;
+                .content{
+                    h5{
+                        font-size: 1.7rem;
+                        margin-left: 10rem;
+                    }
+                    p{
+                        margin-top: 4px;
+                        font-size: 1.2rem;
+                        color:black;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        
+    }
+    
+    //wert
+    .top{
+       
+        padding-bottom: 2rem; //
+        .logo{
+            h3{
+                font-size: 2.5rem; //
+            }
+        }
+        .nav-links{
+            a{                    
+                font-size: 1.5rem; //
+            }
+        }
+    }
+    //fgh
+    
+    #home{          
+        padding: 0 2rem; //
+    
+        .H_right{
+    
+            .words{
+                       
+                h4{
+                  font-size: 1.5rem; //
+                }
+                p{
+                  font-size: 1.3rem; //
+                  font-weight: bolder;
+                }
+            }
+        }
+        .H_left{
+            .image{
+              
+                p{
+                  font-size: 2rem; //
+                  font-weight: bolder;
+                }
+            }
+        }
+    }
+    //fghj
+    
+    #Contact{
+      
+        
+        .C_right{
+            h2{
+            
+                font-size: 2rem; //
+            }
+            h4{
+                font-size: 1.2rem;
+            }
+            p{
+             
+                font-size: 1.2rem; //
+                font-weight: bolder;
+            }
+            .icons{
+               
+                img{
+                    height: 2rem;
+                }
+            }
+    
+            .links{
+    
+              
+    
+                h4{
+                    font-size: 1.3rem; //
+                }
+    
+                a{
+                    font-size: 1.2rem; //
+                    margin-left: 8px; //
+                  
+                }
+    
+    
+            }
+        }
+        .C_middle{
+        right: -3rem; //
+        height: 22rem; // 
+        width: 20rem; //
+        .Call{
+            h4{
+              font-size: 1.5rem; //
+            }
+            p{
+              font-size: 1.2rem; //
+              font-weight: bolder;
+            }
+        }
+        .Email{
+            h4{
+              font-size: 1.5rem; //
+            }
+            p{                  
+              font-size: 1.2rem; //
+              font-weight: bolder;
+            }
+        }
+        .B_H{
+            h4{
+              font-size: 1.5rem; //
+            }
+            p{
+              font-size: 1.2rem; //
+              font-weight: bolder;
+            }
+        }
+        .Location{
+            h4{  
+              font-size: 1.5rem; //
+            }
+            p{
+              font-size: 1.2rem; //
+              font-weight: bolder;
+            }
+        }
+        }
+        .C_left{
+        
+        img{
+            height: 15rem;
+            margin-left: 7rem;
+        }
+        }
+    }
+       //dgfh
+    
+       #comment{
+        height: 40rem; //
+       .cmd{
+            #name{
+                &::placeholder{
+                    font-size: 1.2rem; //
+                }
+                border-radius: 5px; //
+                padding: 12px ; //
+            }
+            #email{
+                &::placeholder{
+                    font-size: 1.2rem; //
+                }
+                border-radius: 5px; //
+                padding: 12px; //
+             
+            }
+            #area{
+                &::placeholder{
+                    font-size: 1.2rem; //
+                }
+    
+                border-radius: 5px; // 
+                padding: 12px; // 
+            }
+            #submit{
+                font-size: 1.4rem; // 
+                padding: 12px; //        
+            }
+       }
+    }
+    //dfgh
+    
+    #about{          
+        height: 60rem; //        
+        h2{
+            font-size: 2.5rem; //   
+        }
+        p{
+            font-size: 1.5rem; //
+        //    color: rgb(19, 73, 70);
+        }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    }
+    
     @media(max-width:320px){       
 
         
         .top{
-          width: 80.42rem;    
+          width: 91.9rem;    
         }
             #Services{
-                width: 80.42rem;
+                width: 91.9rem;
             }
             #about{
-                width: 72.42rem;
+                width: 82.42rem;
             }
             #team{
-                width: 80.42rem;
+                width: 92.42rem;
             }
             #comment{
-                width: 80.42rem;
+                width: 91.42rem;
             }
             #Contact{
-              width: 74.42rem;
+              width: 86.42rem;
             }
             #home{
                 width: 70rem;
@@ -1335,7 +1336,7 @@ body{
       //font size
 
       #Services{
-            height: 125rem;
+            height: 127rem;
             
             .h2{
                 h2{
@@ -1401,6 +1402,7 @@ body{
           
             .Box_4{
                 padding: 8rem 1rem;
+                margin-left: 33rem;
                     .content{
                         h5{
                             font-size: 1.7rem;
@@ -1505,7 +1507,7 @@ body{
             }
             .C_middle{
             right: -3rem; //
-            height: 19rem; // 
+            height: 21rem; // 
             width: 20rem; //
             .Call{
                 h4{
@@ -1600,5 +1602,4 @@ body{
         
         }
     }
-    
 
