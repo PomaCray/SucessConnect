@@ -1,1393 +1,665 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: 0;
-          box-sizing: 0;
+  box-sizing: 0;
 }
 
 body {
-  background: black;
-}
-
-#Services {
-  font-family: Tahoma;
-  background-color: #134946;
-  height: 108rem;
-  padding-top: 10rem;
-  margin-top: -1.8rem;
-}
-
-#Services .Wrap_Box {
-  margin-top: 3rem;
-}
-
-#Services .h2 h2 {
-  margin-top: -9rem;
-  margin-left: 5rem;
-  margin-bottom: 5rem;
-  font-size: 2rem;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(6.5%, black), color-stop(2%, rgba(30, 28, 28, 0.671)));
-  background-image: linear-gradient(90deg, black 6.5%, rgba(30, 28, 28, 0.671) 2%);
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-#Services .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 5rem;
-  margin-bottom: 2rem;
-}
-
-#Services .first .Box_1 {
-  padding: 4rem 1rem;
-  background-color: #0000112d;
-  margin-left: 6rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  -webkit-transition: all ease-in-out 0.5s;
-  transition: all ease-in-out 0.5s;
-}
-
-#Services .first .Box_1:hover {
-  background-color: #04041667;
-  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-}
-
-#Services .first .Box_1 img {
-  border-radius: 5px;
-  height: 8rem;
-  width: 10rem;
-}
-
-#Services .first .Box_1 .content {
-  width: 17rem;
-  margin-top: 5px;
-  color: black;
-}
-
-#Services .first .Box_1 .content h5 {
-  font-size: 1.5rem;
-  width: 10rem;
-  margin-left: 4rem;
-}
-
-#Services .first .Box_1 .content p {
-  margin-top: 4px;
-  color: rgba(30, 28, 28, 0.953);
-}
-
-#Services .second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 5rem;
-  margin-bottom: 2rem;
-}
-
-#Services .second .Box_2 {
-  padding: 4rem 1rem;
-  background-color: #0000112d;
-  margin-left: 6rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  -webkit-transition: all ease-in-out 0.5s;
-  transition: all ease-in-out 0.5s;
-}
-
-#Services .second .Box_2:hover {
-  background-color: #04041667;
-  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-}
-
-#Services .second .Box_2 img {
-  border-radius: 5px;
-  height: 8rem;
-  width: 10rem;
-}
-
-#Services .second .Box_2 .content {
-  width: 17rem;
-  margin-top: 5px;
-  color: black;
-}
-
-#Services .second .Box_2 .content h5 {
-  font-size: 1.5rem;
-  width: 10rem;
-  margin-left: 4rem;
-}
-
-#Services .second .Box_2 .content p {
-  margin-top: 4px;
-  color: rgba(30, 28, 28, 0.953);
-}
-
-#Services .third {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 5rem;
-  margin-bottom: 2rem;
-}
-
-#Services .third .Box_3 {
-  padding: 4rem 1rem;
-  background-color: #0000112d;
-  margin-left: 5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  -webkit-transition: all ease-in-out 0.5s;
-  transition: all ease-in-out 0.5s;
-}
-
-#Services .third .Box_3:hover {
-  background-color: #04041667;
-  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-}
-
-#Services .third .Box_3 img {
-  border-radius: 5px;
-  height: 8rem;
-  width: 10rem;
-}
-
-#Services .third .Box_3 .content {
-  margin-top: 5px;
-  color: black;
-  width: 17rem;
-}
-
-#Services .third .Box_3 .content h5 {
-  font-size: 1.5rem;
-  width: 11rem;
-  margin-left: 4rem;
-}
-
-#Services .third .Box_3 .content p {
-  margin-top: 4px;
-  color: rgba(30, 28, 28, 0.953);
-}
-
-.fourth .Box_4 {
-  padding: 4rem 1rem;
-  width: 30rem;
-  height: 13rem;
-  background-color: #0000112d;
-  margin-left: 38rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  -webkit-transition: all ease-in-out 0.5s;
-  transition: all ease-in-out 0.5s;
-}
-
-.fourth .Box_4:hover {
-  background-color: #04041667;
-  -webkit-box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-          box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-}
-
-.fourth .Box_4 img {
-  border-radius: 5px;
-  height: 8rem;
-  width: 10rem;
-}
-
-.fourth .Box_4 .content {
-  margin-top: 5px;
-  color: black;
-}
-
-.fourth .Box_4 .content h5 {
-  font-size: 1.5rem;
-  width: 11rem;
-  margin-left: 10rem;
-}
-
-.fourth .Box_4 .content p {
-  margin-top: 4px;
-  color: rgba(30, 28, 28, 0.953);
+  background: white;
+  overflow-x: hidden;
 }
 
 .top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 1rem;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding-top: 0.7rem;
   padding-bottom: 1rem;
-  background: #134946;
+  background: rgba(7, 7, 7, 0.953);
   font-family: Tahoma;
 }
-
+@media (min-width: 1024px) {
+  .top {
+    background: rgba(7, 7, 7, 0.953);
+  }
+}
 .top .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  position: relative;
+  height: 5vh;
+  width: 10vh;
+  margin-left: 10px;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-
 .top .logo img {
-  height: 2rem;
-  -webkit-filter: drop-shadow(-10px 10px 20px #580858);
-          filter: drop-shadow(-10px 10px 20px #580858);
-  margin-right: 2rem;
-  margin-left: 1rem;
+  position: absolute;
+  top: 0;
+  width: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: drop-shadow(-10px 10px 20px rgb(88, 8, 88));
 }
-
 .top .logo h3 {
-  font-size: 1.8rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(30, 28, 28, 0.671)));
-  background-image: linear-gradient(to right, black, rgba(30, 28, 28, 0.671));
+  font-size: 19px;
+  width: 50rem;
+  position: absolute;
+  top: 2px;
+  margin: auto;
+  margin-left: 80px;
+  background-image: linear-gradient(to right, white, rgba(30, 28, 28, 0.907));
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-
+@media (max-width: 768px) {
+  .top .logo h3 {
+    display: none;
+  }
+}
+.top .open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.top #check {
+  margin-right: 1.5rem;
+  display: none;
+}
+@media (max-width: 768px) {
+  .top #check:checked ~ .nav-links {
+    right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .top .open-menu {
+    display: none;
+  }
+  .top .nav-links .close-menu {
+    display: none;
+  }
+  .top .nav-links a {
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid white;
+    border-radius: 8px;
+  }
+  .top .nav-links a:hover {
+    background-color: transparent;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+    border: 1px solid transparent;
+  }
+  .top .nav-links a:hover:hover::after {
+    width: 0;
+  }
+}
 .top .nav-links {
-  margin-top: .5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
+@media (max-width: 768px) {
+  .top .nav-links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 103vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background: rgba(7, 7, 7, 0.953);
+    transition: 0.2s ease-in-out;
+  }
+  .top .nav-links a {
+    padding: 1px;
+    margin-bottom: 8rem;
+  }
+}
+.top .nav-links .close-menu {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  top: 20px;
+  right: 20px;
+}
 .top .nav-links a {
-  font-size: .9rem;
+  font-size: 0.9rem;
+  display: inline-block;
+  position: relative;
   text-decoration: none;
-  padding: 0.5rem;
-  margin: 1rem;
-  border-radius: 4rem;
-  color: black;
-  -webkit-box-shadow: 2px 2px 8px black;
-          box-shadow: 2px 2px 8px black;
-  -webkit-transition: all ease-in 0.5s;
-  transition: all ease-in 0.5s;
+  margin-right: 10px;
+  color: white;
+  transition: all ease-in 0.2s;
 }
-
-.top .nav-links a:hover {
-  background-color: black;
-  color: #134946;
-  padding-bottom: 1rem;
+.top .nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  transition: 0.15s ease-in-out;
+}
+.top .nav-links a:hover::after {
+  width: 100%;
 }
 
 #home {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 2rem;
-  padding: 0 5rem;
-  font-family: Tahoma;
+  padding-bottom: -3rem;
+  width: 100%;
   height: 53.2rem;
+  font-family: Tahoma;
 }
-
+@media (min-width: 1024px) {
+  #home {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
 #home .H_right {
-  width: 38rem;
-  background-color: #134946;
-  margin-right: -5rem;
-  border-left: 150px solid black;
-  border-bottom: 700px solid transparent;
+  background-color: transparent;
   text-align: center;
 }
-
-#home .H_right .words {
-  margin-right: 2rem;
-}
-
 #home .H_right .words h3 {
   margin-top: 5rem;
   font-size: 4rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(#121283), to(#580858));
-  background-image: linear-gradient(to right, #121283, #580858);
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  text-shadow: 5px 2px 10px black;
+  color: black;
 }
-
 #home .H_right .words h4 {
   color: black;
   margin-top: 5px;
-  margin-left: -12rem;
 }
-
 #home .H_right .words p {
   color: black;
   margin-right: 5rem;
 }
-
-#home .H_left .image img {
-  -webkit-filter: drop-shadow(-10px 10px 20px #134946);
-          filter: drop-shadow(-10px 10px 20px #134946);
+#home .H_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+#home .H_left .image {
+  margin-top: 3rem;
+}
+#home .H_left .image img {
+  filter: drop-shadow(-10px 10px 20px rgb(19, 73, 70));
+  width: 100%;
+}
 #home .H_left .image p {
   font-size: 1.5rem;
   margin-top: 1rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(purple), to(blue));
   background-image: linear-gradient(to right, purple, blue);
+  background-size: cover;
+  margin-left: 5px;
+  word-break: break-all;
+  width: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media (min-width: 1024px) {
+  #home .H_left .image p {
+    word-break: normal;
+  }
+}
+
+#Services {
+  font-family: Tahoma;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  margin-top: -1.8rem;
+}
+#Services .Wrap_Box {
+  margin-top: 3rem;
+}
+#Services .h2 h2 {
+  margin-top: -9rem;
+  margin-left: 10px;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  background-image: linear-gradient(90deg, black 6.5%, rgba(30, 28, 28, 0.382) 2%);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+#Services .first {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
+}
+#Services .first .Box_1 {
+  padding: 4rem 1rem;
+  width: 32vh;
+  height: 28vh;
+  background-color: rgba(0, 0, 17, 0.0666666667);
+  align-items: center;
+  text-align: center;
+  border-radius: 2px;
+  transition: all ease-in-out 0.5s;
+  position: relative;
+}
+#Services .first .Box_1:hover {
+  background-color: rgba(4, 4, 22, 0.0941176471);
+  box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+  transform: rotate(5deg);
+}
+#Services .first .Box_1 img {
+  border-radius: 3px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#Services .first .Box_1 .content {
+  width: auto;
+  color: black;
+  bottom: 10px;
+  position: absolute;
+}
+#Services .first .Box_1 .content h5 {
+  font-size: 1.5rem;
+  width: auto;
+}
+#Services .first .Box_1 .content p {
+  margin-top: 4px;
+  color: black;
+}
+#Services .fourth .Box_4 {
+  width: 45vh;
+  height: 42vh;
+  background-color: rgba(0, 0, 17, 0.0666666667);
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  border-radius: 2px;
+  transition: all ease-in-out 0.5s;
+  position: relative;
+}
+#Services .fourth .Box_4:hover {
+  background-color: rgba(4, 4, 22, 0.0941176471);
+  box-shadow: 10px 10px 20px rgba(20, 20, 20, 0.883);
+  transform: rotate(5deg);
+}
+#Services .fourth .Box_4 img {
+  border-radius: 3px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: fill;
+     object-fit: fill;
+  position: absolute;
+}
+#Services .fourth .Box_4 .content {
+  margin-top: 5px;
+  position: absolute;
+  bottom: 10px;
+  color: black;
+}
+#Services .fourth .Box_4 .content h5 {
+  font-size: 1.5rem;
+  width: auto;
+}
+#Services .fourth .Box_4 .content p {
+  margin-top: 4px;
+  color: black;
 }
 
 #about {
-  background: url(../img/beef.png) no-repeat;
-  background-position: right;
-  height: 30rem;
-  color: #134946;
-  padding: 1rem 4rem;
+  height: auto;
+  margin-left: 5px;
   font-family: Tahoma;
 }
-
+@media (min-width: 1024px) {
+  #about {
+    background: url(../img/beef.png) no-repeat;
+    background-position: right;
+    height: 90vh;
+    padding: 1rem 4rem;
+    margin-top: 3em;
+  }
+}
 #about h2 {
   margin-bottom: 1rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(#134946), to(blue));
-  background-image: linear-gradient(to right, #134946, blue);
+  background-image: linear-gradient(to right, black, blue);
+  font-size: 2.5rem;
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-
 #about p {
-  width: 45rem;
-  color: #134946;
+  width: 100%;
+  margin-bottom: 500px;
+  word-wrap: break-word;
+  color: black;
   font-weight: bolder;
   margin-bottom: 8px;
 }
 
 #team {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100%;
+  margin-bottom: 15em;
   font-family: Tahoma;
 }
-
-#team .A_Box12 {
-  text-align: center;
-  margin-top: 2rem;
-  color: #134946;
+@media (min-width: 1024px) {
+  #team .all .A_Box12 {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-#team .A_Box12 img {
-  width: 9rem;
-  height: 9rem;
-  border-radius: 5px;
-}
-
-#team .A_top {
-  background-color: #134946;
-  height: 0.6rem;
-  border-right: 40px solid black;
-  border-bottom: 400px solid transparent;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+#team .all {
+  position: relative;
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-#team .A_top .A_Box {
+#team .all .A_Box12 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  margin-top: 100px;
+  color: black;
+}
+#team .all .A_Box12 img {
+  height: 50%;
+  width: 120%;
+  border-radius: 3px;
+}
+@media (min-width: 1024px) {
+  #team .all .A_Box12 img {
+    height: 40vh;
+    width: 40vh;
+    border-radius: 0%;
+  }
+}
+#team .all .A_top {
+  gap: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  font-family: Tahoma;
+  justify-content: center;
+}
+#team .all .A_top .A_Box {
   margin-top: 2rem;
   color: black;
+  width: 40vh;
   font-family: Tahoma;
 }
-
-#team .A_top .A_Box h3 {
-  color: #1e1c1c;
-  background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(30, 28, 28, 0.671)));
+#team .all .A_top .A_Box h3 {
+  color: black;
   background-image: linear-gradient(to right, black, rgba(30, 28, 28, 0.671));
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-
-#team .A_top .A_Box img {
-  border-radius: 5px;
-  height: 9rem;
+#team .all .A_top .A_Box img {
+  border-radius: 3px;
+  height: 70%;
+}
+@media (min-width: 1024px) {
+  #team .all .A_top .A_Box img {
+    height: 30vh;
+    border-radius: 0%;
+  }
 }
 
 #Contact {
-  background: #134946;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   font-family: Tahoma;
   color: black;
   padding: 3rem 3rem;
-  height: 16rem;
 }
-
+@media (min-width: 1024px) {
+  #Contact {
+    background: url(../img/agba-removebg.png) no-repeat;
+    background-size: 35%;
+    background-position-x: right;
+    padding: 5rem 3rem;
+  }
+}
+#Contact .C_right {
+  margin-bottom: 2rem;
+}
 #Contact .C_right h2 {
   margin-bottom: 1rem;
 }
-
 #Contact .C_right p {
-  width: 28rem;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
 }
-
 #Contact .C_right .icons {
   margin-top: 1rem;
 }
-
 #Contact .C_right .icons img {
   height: 2rem;
 }
-
 #Contact .C_right .links {
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
-
 #Contact .C_right .links h3 {
   margin-bottom: 1rem;
 }
-
 #Contact .C_right .links a {
   margin-left: 5px;
   text-decoration: none;
-  color: rgba(30, 28, 28, 0.953);
+  color: black;
 }
-
 #Contact .C_middle {
-  position: relative;
-  top: -11rem;
-  right: -2rem;
-  -webkit-box-shadow: -5px 5px 15px black;
-          box-shadow: -5px 5px 15px black;
-  -webkit-transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  box-shadow: -5px 5px 15px black;
   transition: all ease-in-out 0.5s;
-  background: #134946;
   height: 16rem;
-  width: 18rem;
   padding: 2rem 5px;
   text-align: center;
   color: black;
   border-radius: 6px;
 }
-
-#Contact .C_middle:hover {
-  -webkit-transform: rotate(10deg);
-          transform: rotate(10deg);
+@media (min-width: 1024px) {
+  #Contact .C_middle {
+    background: white;
+    position: relative;
+    top: -9rem;
+    right: -2rem;
+  }
 }
-
+#Contact .C_middle:hover {
+  transform: rotate(10deg);
+}
 #Contact .C_middle .Call h4 {
   margin-bottom: 4px;
   text-decoration: underline;
 }
-
 #Contact .C_middle .Call p {
   margin-bottom: 5px;
 }
-
 #Contact .C_middle .Email h4 {
   margin-bottom: 4px;
   text-decoration: underline;
 }
-
 #Contact .C_middle .Email p {
   margin-bottom: 5px;
 }
-
 #Contact .C_middle .B_H h4 {
   margin-bottom: 4px;
   text-decoration: underline;
 }
-
 #Contact .C_middle .Location h4 {
   text-decoration: underline;
 }
-
 #Contact .C_middle .Location p {
-  width: 14rem;
   margin-top: 4px;
   margin-left: 2rem;
   margin-bottom: 5px;
 }
-
+#Contact .C_left {
+  margin-top: 3rem;
+}
 #Contact .C_left img {
-  height: 15rem;
-  margin-left: 7rem;
+  display: none;
 }
 
 #comment {
-  height: 33rem;
+  margin-top: auto;
   font-family: Tahoma;
-  background: url(../img/connect-removebg-preview.png) no-repeat;
-  background-position-x: right;
-  background-repeat: repeat-y;
 }
-
+@media (min-width: 1024px) {
+  #comment {
+    background: url(../img/connect-removebg-preview.png) no-repeat;
+    background-position-x: right;
+    background-repeat: repeat-y;
+  }
+}
 #comment h2 {
-  font-size: 2.5rem;
-  color: #134946;
-  background-image: -webkit-gradient(linear, left top, right top, from(#134946), to(blue));
-  background-image: linear-gradient(to right, #134946, blue);
+  font-size: 2rem;
+  color: black;
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.525));
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  margin: 2rem 2rem;
+  margin-left: 10px;
 }
-
 #comment .cmd {
-  margin-left: 2rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-
+#comment .cmd ul {
+  display: grid;
+  grid-row: 2;
+}
 #comment .cmd ul li {
   list-style: none;
   margin-bottom: 2rem;
 }
-
 #comment .cmd #name {
-  color: #134946;
-  border: 1px solid #134946;
-  border-radius: 2px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
   padding: 5px;
+  font-weight: 500;
+  height: 35px;
+  width: 93%;
+  outline: none;
   background-color: rgba(128, 128, 128, 0.055);
 }
-
-#comment .cmd #name::-webkit-input-placeholder {
-  color: #134946;
+#comment .cmd #name::-moz-placeholder {
+  color: black;
 }
-
 #comment .cmd #name:-ms-input-placeholder {
-  color: #134946;
+  color: black;
 }
-
-#comment .cmd #name::-ms-input-placeholder {
-  color: #134946;
-}
-
 #comment .cmd #name::placeholder {
-  color: #134946;
+  color: black;
 }
-
+@media (min-width: 1024px) {
+  #comment .cmd #name {
+    width: 40%;
+  }
+}
 #comment .cmd #email {
-  color: #134946;
-  border: 1px solid #134946;
+  color: black;
+  border: 2px solid black;
   border-radius: 2px;
   padding: 5px;
+  height: 35px;
+  width: 93%;
   background-color: rgba(128, 128, 128, 0.055);
 }
-
-#comment .cmd #email::-webkit-input-placeholder {
-  color: #134946;
+#comment .cmd #email::-moz-placeholder {
+  color: black;
 }
-
 #comment .cmd #email:-ms-input-placeholder {
-  color: #134946;
+  color: black;
 }
-
-#comment .cmd #email::-ms-input-placeholder {
-  color: #134946;
-}
-
 #comment .cmd #email::placeholder {
-  color: #134946;
+  color: black;
 }
-
+@media (min-width: 1024px) {
+  #comment .cmd #email {
+    width: 40%;
+  }
+}
 #comment .cmd #area {
-  color: #134946;
-  border: 1px solid #134946;
+  color: black;
+  border: 2px solid black;
   border-radius: 2px;
   padding: 5px;
+  width: 93%;
   background-color: rgba(128, 128, 128, 0.055);
 }
-
-#comment .cmd #area::-webkit-input-placeholder {
-  color: #134946;
+#comment .cmd #area::-moz-placeholder {
+  color: black;
 }
-
 #comment .cmd #area:-ms-input-placeholder {
-  color: #134946;
+  color: black;
 }
-
-#comment .cmd #area::-ms-input-placeholder {
-  color: #134946;
-}
-
 #comment .cmd #area::placeholder {
-  color: #134946;
+  color: black;
 }
-
+@media (min-width: 1024px) {
+  #comment .cmd #area {
+    width: 40%;
+  }
+}
 #comment .cmd #submit {
   color: black;
-  background-color: #134946;
-  border: 1px solid #134946;
-  border-radius: 1rem;
-  padding: 10px;
-  -webkit-box-shadow: 2px 2px 8px #134946;
-          box-shadow: 2px 2px 8px #134946;
-  -webkit-transition: ease-in-out .4s;
-  transition: ease-in-out .4s;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-top: 10px;
+  width: 97%;
+  transition: ease-in-out 0.4s;
 }
-
 #comment .cmd #submit:hover {
   background: transparent;
-  color: #134946;
+  color: black;
+  box-shadow: 2px 2px 8px black;
+  cursor: pointer;
 }
-
-@media (max-width: 1024px) {
-  .top {
-    width: 94.8rem;
-  }
-  #Services {
-    width: 94.9rem;
-  }
-  #about {
-    width: 85.45rem;
-  }
-  #team {
-    width: 94.8rem;
-  }
-  #comment {
-    width: 94.8rem;
-  }
-  #Contact {
-    width: 88.9rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .top {
-    width: 94.8rem;
-  }
-  #Services {
-    width: 94.9rem;
-  }
-  #about {
-    width: 85.45rem;
-  }
-  #team {
-    width: 94.8rem;
-  }
-  #comment {
-    width: 94.8rem;
-  }
-  #Contact {
-    width: 88.9rem;
-  }
-}
-
-@media (max-width: 425px) {
-  .top {
-    width: 94.5rem;
-  }
-  #Services {
-    width: 94.5rem;
-  }
-  #about {
-    width: 85.5rem;
-  }
-  #team {
-    width: 94.5rem;
-  }
-  #comment {
-    width: 94.5rem;
-  }
-  #Contact {
-    width: 88.5rem;
-  }
-  #team .A_Box12 h3 {
-    font-size: 1.5rem;
-  }
-  #team .A_Box12 p {
-    font-size: 1.2rem;
-  }
-  #team .A_top .A_Box h3 {
-    font-size: 1.5rem;
-  }
-  #team .A_top .A_Box p {
-    color: black;
-    font: 1.2rem;
-  }
-  #Services {
-    height: 125rem;
-  }
-  #Services .h2 h2 {
-    font-size: 3rem;
-  }
-  #Services .first .Box_1 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .first .Box_1 .content p {
-    font-size: 1.2rem;
-    color: black;
-  }
-  #Services .second .Box_2 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .second .Box_2 .content p {
-    font-size: 1.2rem;
-    color: black;
-  }
-  #Services .third .Box_3 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .third .Box_3 .content p {
-    font-size: 1.2rem;
-    color: black;
-  }
-  .fourth .Box_4 {
-    padding: 8rem 1rem;
-    margin-left: 34rem;
-  }
-  .fourth .Box_4 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 10rem;
-  }
-  .fourth .Box_4 .content p {
-    margin-top: 4px;
-    font-size: 1.2rem;
-    color: black;
-  }
-  .top {
-    padding-bottom: 2rem;
-  }
-  .top .logo h3 {
-    font-size: 2.5rem;
-  }
-  .top .nav-links a {
-    font-size: 1.5rem;
-  }
-  #home {
-    padding: 0 4.5rem;
-  }
-  #home .H_right .words h4 {
-    font-size: 1.5rem;
-  }
-  #home .H_right .words p {
-    font-size: 1.3rem;
-  }
-  #home .H_left .image p {
-    font-size: 2rem;
-  }
-  #Contact .C_right h2 {
-    font-size: 2rem;
-  }
-  #Contact .C_right h4 {
-    font-size: 1.2rem;
-  }
-  #Contact .C_right p {
-    font-size: 1.2rem;
-  }
-  #Contact .C_right .icons img {
-    height: 2rem;
-  }
-  #Contact .C_right .links h4 {
-    font-size: 1.3rem;
-  }
-  #Contact .C_right .links a {
-    font-size: 1.2rem;
-    margin-left: 8px;
-  }
-  #Contact .C_middle {
-    right: -3rem;
-    height: 20rem;
-    width: 20rem;
-  }
-  #Contact .C_middle .Call h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Call p {
-    font-size: 1.2rem;
-  }
-  #Contact .C_middle .Email h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Email p {
-    font-size: 1.2rem;
-  }
-  #Contact .C_middle .B_H h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .B_H p {
-    font-size: 1.2rem;
-  }
-  #Contact .C_middle .Location h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Location p {
-    font-size: 1.2rem;
-  }
-  #Contact .C_left img {
-    height: 15rem;
-    margin-left: 7rem;
-  }
-  #comment {
-    height: 38rem;
-  }
-  #comment .cmd #name {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #name::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #email::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #area::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area::placeholder {
-    font-size: 1.2rem;
-  }
+@media (min-width: 1024px) {
   #comment .cmd #submit {
-    font-size: 1.4rem;
-    padding: 12px;
+    width: 10%;
+    display: grid;
   }
-  #about {
-    height: 60rem;
-  }
-  #about h2 {
-    font-size: 2.5rem;
-  }
-  #about p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .top {
-    width: 92rem;
-  }
-  #Services {
-    width: 91.9rem;
-  }
-  #about {
-    width: 83.45rem;
-  }
-  #team {
-    width: 92.1rem;
-  }
-  #comment {
-    width: 92.1rem;
-  }
-  #Contact {
-    width: 86.1rem;
-  }
-  #team .A_Box12 h3 {
-    font-size: 1.5rem;
-  }
-  #team .A_Box12 p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #team .A_top .A_Box h3 {
-    font-size: 1.5rem;
-  }
-  #team .A_top .A_Box p {
-    color: black;
-    font: 1.2rem;
-    font-weight: bolder;
-  }
-  #Services {
-    height: 125rem;
-  }
-  #Services .h2 h2 {
-    font-size: 3rem;
-  }
-  #Services .first .Box_1 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .first .Box_1 .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  #Services .second .Box_2 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .second .Box_2 .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  #Services .third .Box_3 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .third .Box_3 .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  .fourth .Box_4 {
-    padding: 7rem 1rem;
-    margin-left: 32rem;
-  }
-  .fourth .Box_4 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 10rem;
-  }
-  .fourth .Box_4 .content p {
-    margin-top: 4px;
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  .top {
-    padding-bottom: 2rem;
-  }
-  .top .logo h3 {
-    font-size: 2.5rem;
-  }
-  .top .nav-links a {
-    font-size: 1.5rem;
-  }
-  #home {
-    padding: 0 2rem;
-  }
-  #home .H_right .words h4 {
-    font-size: 1.5rem;
-  }
-  #home .H_right .words p {
-    font-size: 1.3rem;
-    font-weight: bolder;
-  }
-  #home .H_left .image p {
-    font-size: 2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_right h2 {
-    font-size: 2rem;
-  }
-  #Contact .C_right h4 {
-    font-size: 1.2rem;
-  }
-  #Contact .C_right p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_right .icons img {
-    height: 2rem;
-  }
-  #Contact .C_right .links h4 {
-    font-size: 1.3rem;
-  }
-  #Contact .C_right .links a {
-    font-size: 1.2rem;
-    margin-left: 8px;
-  }
-  #Contact .C_middle {
-    right: -3rem;
-    height: 22rem;
-    width: 20rem;
-  }
-  #Contact .C_middle .Call h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Call p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_middle .Email h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Email p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_middle .B_H h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .B_H p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_middle .Location h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Location p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_left img {
-    height: 15rem;
-    margin-left: 7rem;
-  }
-  #comment {
-    height: 40rem;
-  }
-  #comment .cmd #name {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #name::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #email::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #area::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #submit {
-    font-size: 1.4rem;
-    padding: 12px;
-  }
-  #about {
-    height: 60rem;
-  }
-  #about h2 {
-    font-size: 2.5rem;
-  }
-  #about p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .top {
-    width: 91.9rem;
-  }
-  #Services {
-    width: 91.9rem;
-  }
-  #about {
-    width: 82.42rem;
-  }
-  #team {
-    width: 92.42rem;
-  }
-  #comment {
-    width: 91.42rem;
-  }
-  #Contact {
-    width: 86.42rem;
-  }
-  #home {
-    width: 70rem;
-  }
-  #home {
-    padding: 0 2rem;
-  }
-  #team .A_Box12 h3 {
-    font-size: 1.5rem;
-  }
-  #team .A_Box12 p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #team .A_top .A_Box h3 {
-    font-size: 1.5rem;
-  }
-  #team .A_top .A_Box p {
-    color: black;
-    font: 1.2rem;
-    font-weight: bolder;
-  }
-  #Services {
-    height: 127rem;
-  }
-  #Services .h2 h2 {
-    font-size: 3rem;
-  }
-  #Services .first .Box_1 {
-    margin-left: 5rem;
-  }
-  #Services .first .Box_1 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .first .Box_1 .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  #Services .second .Box_2 {
-    margin-left: 5rem;
-  }
-  #Services .second .Box_2 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .second .Box_2 .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  #Services .third .Box_3 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 3rem;
-  }
-  #Services .third .Box_3 .content p {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  .fourth .Box_4 {
-    padding: 8rem 1rem;
-    margin-left: 33rem;
-  }
-  .fourth .Box_4 .content h5 {
-    font-size: 1.7rem;
-    margin-left: 10rem;
-  }
-  .fourth .Box_4 .content p {
-    margin-top: 4px;
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bolder;
-  }
-  .top {
-    padding-bottom: 2rem;
-  }
-  .top .logo h3 {
-    font-size: 2.5rem;
-  }
-  .top .nav-links a {
-    font-size: 1.5rem;
-  }
-  #home {
-    padding: 0 2rem;
-  }
-  #home .H_right .words h4 {
-    font-size: 1.5rem;
-  }
-  #home .H_right .words p {
-    font-size: 1.3rem;
-    font-weight: bolder;
-  }
-  #home .H_left .image p {
-    font-size: 2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_right h2 {
-    font-size: 2rem;
-  }
-  #Contact .C_right h4 {
-    font-size: 1.2rem;
-  }
-  #Contact .C_right p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_right .icons img {
-    height: 2rem;
-  }
-  #Contact .C_right .links h4 {
-    font-size: 1.3rem;
-  }
-  #Contact .C_right .links a {
-    font-size: 1.2rem;
-    margin-left: 8px;
-    font-weight: bolder;
-  }
-  #Contact .C_middle {
-    right: -3rem;
-    height: 21rem;
-    width: 20rem;
-  }
-  #Contact .C_middle .Call h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Call p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_middle .Email h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Email p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_middle .B_H h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .B_H p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_middle .Location h4 {
-    font-size: 1.5rem;
-  }
-  #Contact .C_middle .Location p {
-    font-size: 1.2rem;
-    font-weight: bolder;
-  }
-  #Contact .C_left img {
-    height: 15rem;
-    margin-left: 7rem;
-  }
-  #comment {
-    height: 35rem;
-  }
-  #comment .cmd #name {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #name::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #name::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #email::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #email::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area {
-    border-radius: 5px;
-    padding: 12px;
-  }
-  #comment .cmd #area::-webkit-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area:-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area::-ms-input-placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #area::placeholder {
-    font-size: 1.2rem;
-  }
-  #comment .cmd #submit {
-    font-size: 1.4rem;
-    padding: 12px;
-  }
-  #about {
-    height: 60rem;
-  }
-  #about h2 {
-    font-size: 2.5rem;
-  }
-  #about p {
-    font-size: 1.5rem;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
